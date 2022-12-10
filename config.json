@@ -29,5 +29,9 @@
     "debug": "bool",
     "curl_allow_insecure_ssl_ca": "bool",
     "curl_allow_insecure_ssl_host": "bool"
+  },
+  "devices": [ "/dev/input/event11" ],
+  "environment": {
+    "ATTACH_BARCODESCANNER": "true"
   }
 }
